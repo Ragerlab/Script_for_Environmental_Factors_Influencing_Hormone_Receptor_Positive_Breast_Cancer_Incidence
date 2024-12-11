@@ -46,7 +46,6 @@ nbc <- aim1 %>% filter(`Chemical Categorization`=="NBC")
 uc <- aim1 %>% filter(`Chemical Categorization`=="UC")
 
 # Read in Sister Study Demographic Variables
-load("/Users/lkoval/Library/CloudStorage/OneDrive-SharedLibraries-UniversityofNorthCarolinaatChapelHill/Ragerlab_LabNotebooks - Lauren_Koval/LK_Lab_Notebook/Projects/7_Sister_Study/NTA/Experiment_4/dr00316_01_01/dr00316_01_01.rdata")
 vars <- as.data.frame(dr00316_01_01)
 
 
