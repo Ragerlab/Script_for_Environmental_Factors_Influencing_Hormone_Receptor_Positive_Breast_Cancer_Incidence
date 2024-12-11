@@ -9,7 +9,6 @@ library(haven)
 setwd("Experiment_2")
 
 #Read in demographic data and personal care questions of interest. Consolidate to dataframe of relevant columns
-load("input/dr00316_01_01/dr00316_01_01.rdata")
 cols2keep <- c("PSID","EDCDust_21_BL_LinkingID", "EDCDust_21_BCInvNoD_Case")
 vars <- as.data.frame(dr00316_01_01)
 
